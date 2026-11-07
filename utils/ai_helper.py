@@ -7,7 +7,7 @@ from google.genai import types
 
 load_dotenv()
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 MAX_CHARS = 600_000  # safety limit on document size sent to the model
 
 SYSTEM_PROMPT = (
